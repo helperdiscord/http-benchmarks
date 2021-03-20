@@ -1,0 +1,9 @@
+{
+	"extends": "@kludge-cs/eslint-config-ts",
+	"parserOptions": {
+		"project": "./tsconfig.eslint.json"
+	},
+	"rules": {
+		"no-duplicate-imports": "off"
+	}
+}
