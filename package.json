@@ -1,5 +1,5 @@
 {
-	"name": "bench-centra",
+	"name": "http-benchmarks",
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
@@ -9,7 +9,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/TBNRItzDogeORG/bench-centra.git"
+		"url": "git+https://github.com/helperdiscord/http-benchmarks.git"
 	},
 	"keywords": [],
 	"author": "",
@@ -19,9 +19,9 @@
 	},
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/TBNRItzDogeORG/bench-centra/issues"
+		"url": "https://github.com/helperdiscord/http-benchmarks/issues"
 	},
-	"homepage": "https://github.com/TBNRItzDogeORG/bench-centra#readme",
+	"homepage": "https://github.com/helperdiscord/http-benchmarks#readme",
 	"dependencies": {
 		"@helperdiscord/centra": "^2.3.6",
 		"@kludge-cs/bench-utils": "^1.0.0",
