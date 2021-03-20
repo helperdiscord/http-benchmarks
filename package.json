@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"lint": "eslint src --ext ts --fix",
-		"build": "esbuild src/*.ts --platform=node --outdir=dist --tsconfig=tsconfig.json"
+		"build": "node esbuild.config.json"
 	},
 	"repository": {
 		"type": "git",
@@ -14,13 +14,17 @@
 	"keywords": [],
 	"author": "",
 	"type": "module",
-	"license": "ISC",
+	"imports": {
+		"##/*": "./dist/*.js"
+	},
+	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/TBNRItzDogeORG/bench-centra/issues"
 	},
 	"homepage": "https://github.com/TBNRItzDogeORG/bench-centra#readme",
 	"dependencies": {
 		"@helperdiscord/centra": "^2.3.6",
+		"@kludge-cs/bench-utils": "^1.0.0",
 		"axios": "^0.21.1",
 		"benchmark": "^2.1.4",
 		"centra": "^2.4.2",
