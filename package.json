@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"lint": "eslint src --ext ts --fix",
-		"build": "node esbuild.config.json"
+		"build": "node esbuild.config.js"
 	},
 	"repository": {
 		"type": "git",
