@@ -1,14 +1,12 @@
-import * as https from "https";
+import * as http from "http";
 import type { AddressInfo } from "net";
-import devcert from "devcert";
 
 async function main() {
-	const keys = await devcert.certificateFor("localhost");
-	const server = https
-		.createServer(keys, (_req, response) => response.end("ok"))
+	const server = http
+		.createServer((_req, response) => response.end("ok"))
 		.listen(8080, () => {
 			const { port } = server.address() as AddressInfo;
-			console.log(`Listening at https://localhost:${port}`);
+			console.log(`Listening at http://localhost:${port}`);
 		});
 }
 

@@ -1,9 +1,8 @@
-import { Agent } from "https";
-import type { AgentOptions } from "https";
+import { Agent } from "http";
+import type { AgentOptions } from "http";
 
 export const agentConfig: AgentOptions = {
-	keepAlive: true,
-	rejectUnauthorized: false
+	keepAlive: true
 };
 
 const httpsAgent = new Agent(agentConfig);
