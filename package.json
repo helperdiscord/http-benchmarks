@@ -23,6 +23,7 @@
 	},
 	"homepage": "https://github.com/helperdiscord/http-benchmarks#readme",
 	"dependencies": {
+		"@helperdiscord/centra": "^2.4.2",
 		"@kludge-cs/bench-utils": "^1.0.0",
 		"axios": "^0.21.1",
 		"benchmark": "^2.1.4",
