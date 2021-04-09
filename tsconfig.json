@@ -4,7 +4,8 @@
 		"outDir": "dist",
 		"rootDir": "src",
 		"tsBuildInfoFile": "./dist/.tsbuildinfo",
-		"esModuleInterop": true
+		"esModuleInterop": true,
+		"incremental": true
 	},
-	"include": ["src"]
+	"include": ["src", "dist/id.js"]
 }
