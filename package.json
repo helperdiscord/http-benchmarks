@@ -13,10 +13,7 @@
 	"keywords": [],
 	"author": "",
 	"type": "module",
-	"imports": {
-		"##/*": "./dist/*.js"
-	},
-	"license": "MIT",
+	"license": "GNU GPLv3",
 	"bugs": {
 		"url": "https://github.com/helperdiscord/http-benchmarks/issues"
 	},
