@@ -1,10 +1,7 @@
 # http-benchmarks
- 
-This is a fork of Got's original benchmarking suite, hardened and with more
-libraries. You can check out the [results], or run the suite yourself and report
-them at `RESULTS.md`.
 
-Credit to [@sindresorhus] for designing the original suite.
+![benchmarks](https://edge.doge.bio/bar/eyJ0aXRsZSI6Im9wL3MgaGlnaGVyIGlzIGJldHRlciIsImxlZ2VuZCI6W3sibmFtZSI6InBldGl0aW8iLCJjb2xvciI6MzYzODc1ODN9LHsibmFtZSI6ImF4aW9zIiwiY29sb3IiOjUyODEyNTE4M30seyJuYW1lIjoiZ290IiwiY29sb3IiOi0xMDc2MTAzMTY5fSx7Im5hbWUiOiJyZXF1ZXN0IiwiY29sb3IiOi01MDUwMjM3NDV9LHsibmFtZSI6ImNlbnRyYSIsImNvbG9yIjoxNDAzMTIyNDMxfSx7Im5hbWUiOiJodHRwIiwiY29sb3IiOjE0MDMwOTgxMTF9XSwicG9pbnRzIjpbeyJuYW1lIjoicmVxdWVzdHMiLCJzY29yZXMiOlsxNjUxMiw1MDUzLDM1OTAsNjAwNiw5MzMyLDk0MTFdfV19.png)
 
-[@sindresorhus]: https://github.com/sindresorhus
+[results](results)
+
 [results]: RESULTS.md
