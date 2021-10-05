@@ -1,6 +1,10 @@
 import { Worker, isMainThread } from 'worker_threads';
 import { cpus } from 'os';
+import { dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { readFile } from 'fs/promises';
+let payload = 'ok';
+if (process.env.LARGE) payload = (await readFile(`${dirname(fileURLToPath(import.meta.url))}/large.txt`)).toString();
 const host = '127.0.0.1', port = 8080;
 
 let use_uws = true, pkg = await import('http');
@@ -12,7 +16,7 @@ function uws(host, port) {
     else pkg.App()
         .get('/*', (res) => {
             res.writeHeader('Content-Type', 'text/plain');
-            res.end('ok');
+            res.end(payload);
         })
         .listen(host, port, (sock) => console.log(sock, ' active.'));
 };
@@ -20,11 +24,11 @@ function uws(host, port) {
 function http(_, port) {
     pkg
         .createServer((req, res) => {
-            res.writeHead(200, { "Content-Type": "text/plain" });
-            res.end("ok");
+            res.writeHead(200, { 'Content-Type': 'text/plain' });
+            res.end(payload);
             return;
         })
-        .listen(port, () => console.log("Awaiting requests."));
+        .listen(port, () => console.log('Awaiting requests.'));
 };
 
 if (use_uws) uws(host, port);
