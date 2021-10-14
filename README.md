@@ -3,7 +3,7 @@
 
 ## [results][results]
 
-![benchmarks](https://edge.doge.bio/bar/eyJ0aXRsZSI6Im9wL3MgaGlnaGVyIGlzIGJldHRlciIsImxlZ2VuZCI6W3sibmFtZSI6InBldGl0aW8iLCJjb2xvciI6MzYzODc1ODN9LHsibmFtZSI6ImF4aW9zIiwiY29sb3IiOjUyODEyNTE4M30seyJuYW1lIjoiZ290IiwiY29sb3IiOi0xMDc2MTAzMTY5fSx7Im5hbWUiOiJyZXF1ZXN0IiwiY29sb3IiOi01MDUwMjM3NDV9LHsibmFtZSI6ImNlbnRyYSIsImNvbG9yIjoxNDAzMTIyNDMxfSx7Im5hbWUiOiJodHRwIiwiY29sb3IiOjE0MDMwOTgxMTF9XSwicG9pbnRzIjpbeyJuYW1lIjoicmVxdWVzdHMiLCJzY29yZXMiOlsxNjUxMiw1MDUzLDM1OTAsNjAwNiw5MzMyLDk0MTFdfV19.png)
+![benchmarks](https://edge.doge.bio/bar/eyJ0aXRsZSI6InJlcS9zIGhpZ2hlciBpcyBiZXR0ZXIiLCJsZWdlbmQiOlt7Im5hbWUiOiJwZXRpdGlvIiwiY29sb3IiOjM2Mzg3NTgzfSx7Im5hbWUiOiJheGlvcyIsImNvbG9yIjo1MjgxMjUxODN9LHsibmFtZSI6ImdvdCIsImNvbG9yIjotMTA3NjEwMzE2OX0seyJuYW1lIjoicmVxdWVzdCIsImNvbG9yIjotNTA1MDIzNzQ1fSx7Im5hbWUiOiJjZW50cmEiLCJjb2xvciI6MTQwMzEyMjQzMX0seyJuYW1lIjoiaHR0cCIsImNvbG9yIjoxNDAzMDk4MTExfV0sInBvaW50cyI6W3sibmFtZSI6ImVtcHR5IHJlc3BvbnNlIiwic2NvcmVzIjpbMTY1MTIsNTA1MywzNTkwLDYwMDYsOTMzMiw5NDExXX0seyJuYW1lIjoiMiBNaUIgcmVzcG9uc2UiLCJzY29yZXMiOls0MjAsMjYyLDIzNCwyNDIsOTAsNDA2XX1dfQ==.png)
 
 |      CPU      |   Governor  |         Fastest         |       [`got`][got]         |     [`request`][request]       |    [`node-fetch`][node_fetch]     |      [`centra`][centra]       |      [`http`][http]          |        [`petitio`][petitio]        |
 |:-------------:|:-----------:|:-----------------------:|:-------------------:|:-------------------:|:-------------------:|:-------------------:|:--------------------:|:-----------------------:|
